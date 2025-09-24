@@ -55,7 +55,7 @@ ROOT_URLCONF = 'antonproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/anton_app'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
